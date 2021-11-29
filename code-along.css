@@ -1,3 +1,27 @@
 nav {
-  display: none;
+  display: flex;
+}
+img{
+  width:175px;
+  height:125px;
+}
+.flex-basics{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  justify-content: space-around;
+  /* flex-direction: column; */
+}
+/* *{
+  border:1px solid blue;
+} */
+.container{
+  display:flex;
+  justify-content: space-around;
+}
+aside{
+  min-width:20%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
